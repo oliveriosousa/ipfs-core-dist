@@ -11,6 +11,6 @@
 // Thankfully TypeSciprt can do that. But it'd still be better if
 // we could cast an imported module directly in the import statement.
 // @ts-ignore
-import IPFS_ from 'ipfs-core/dist/index.min.js';
+import * as IPFS_ from 'ipfs-core/dist/index.min.js';
 const IPFS = IPFS_;
 export default IPFS;
